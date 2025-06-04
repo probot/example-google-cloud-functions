@@ -9,7 +9,7 @@
   },
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "ISC",
-  "repository": "github:probot/example-google-cloud-function",
+  "repository": "github:probot/example-google-cloud-functions",
   "dependencies": {
     "probot": "^13.0.0"
   },
