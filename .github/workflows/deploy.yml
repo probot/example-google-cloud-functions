@@ -10,7 +10,7 @@ jobs:
     name: deploy-gcf
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
         with:
