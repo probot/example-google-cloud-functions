@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
+        uses: google-github-actions/setup-gcloud@v3
         with:
           # probot/example-google-cloud-function credentials provided by @bcoe
           project_id: ${{ secrets.PROJECT_ID }}
